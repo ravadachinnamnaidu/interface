@@ -1,0 +1,44 @@
+.container{
+    background-image: url(background.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    padding: 20px;
+}
+header h1{
+    color: gray;
+}
+span{
+    color: red;
+}
+nav{
+    padding: 10px ;
+    width: 800px;
+    background-color: rgb(192, 186, 186);
+}
+nav a{
+    color:black;
+    padding: 10px 47px;
+    text-decoration: none;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: center;
+}
+nav a:hover{
+    background-color: black;
+    color:gray;
+    transition-duration: 0.5s;
+    text-transform: uppercase;
+    justify-content:space-between;
+}
+.info{
+    padding: 200px 50px;
+} 
